@@ -465,7 +465,7 @@ class TestFixtureComponentWithCustomTemplates {
   columnTwoProp: string;
 }
 
-function setupTest(componentClass) {
+function setupTest(componentClass: any) {
   return TestBed.configureTestingModule({
     declarations: [ componentClass ],
     imports: [ NgxDatatableModule ],

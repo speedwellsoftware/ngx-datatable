@@ -54,7 +54,7 @@ function elementText(n: any): string {
 /**
  * adapted from https://github.com/ng-bootstrap/ng-bootstrap/blob/master/src/test/matchers.ts
  */
-function toHaveCssClass(util, customEqualityTests) {
+function toHaveCssClass(util: any, customEqualityTests: any) {
   return { compare: buildError(false), negativeCompare: buildError(true) };
 
   function buildError(isNot: boolean) {
